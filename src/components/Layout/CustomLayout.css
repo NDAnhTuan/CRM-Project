@@ -1,0 +1,29 @@
+.full-screen-min {
+    min-height: 100%;
+    width: 100%;
+}
+.layout-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    align-items: center;      /* Căn giữa theo chiều dọc */
+    
+}
+
+.layout-logo .ant-image {
+    max-width: 30%;  /* Không vượt quá 80% chiều rộng div */
+    height: auto;     /* Giữ tỷ lệ ảnh */
+    object-fit: contain; /* Đảm bảo không méo ảnh */
+    
+}
+
+.Header-Layout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ant-layout-header .ant-typography {
+    width: fit-content;
+}
+

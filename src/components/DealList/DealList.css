@@ -1,0 +1,33 @@
+/* Hover effect for table rows */
+.hover-floating-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    cursor: pointer !important;
+  }
+  
+  .hover-floating-effect:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  /* Custom table header style */
+  .ant-table-thead > tr > th {
+    background: #e5e7eb !important; /* Màu nền xám nhạt */
+    color: #111827 !important; /* Màu chữ đậm hơn */
+    font-weight: 600 !important; 
+  }
+  
+  /* Spinner customization */
+  .ant-spin-text {
+    color: #1f2937 !important;
+    font-size: 18px !important;
+  }
+  
+  /* Background and panel style */
+  .ant-collapse {
+    background: #ffffff !important; /* Nền trắng */
+    border-radius: 12px !important; /* Góc bo tròn */
+  }
+  
+  .ant-collapse-item {
+    border-bottom: none !important; /* Ẩn viền dưới */
+  }
